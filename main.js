@@ -238,13 +238,13 @@ const c3 = 10;
 const c4 = 9;
 
 if (c1 <= c2 && c1 <= c3 && c1 <= c4) {
-  console.log("The least number =", c1);
+  console.log("9. The least number =", c1);
 } else if (c2 <= c1 && c2 <= c3 && c2 <= c4) {
-  console.log("The least number =", c2);
+  console.log("9. The least number =", c2);
 } else if (c3 <= c1 && c3 <= c2 && c3 <= c4) {
-  console.log("The least number =", c3);
+  console.log("9. The least number =", c3);
 } else if (c4 <= c1 && c4 <= c2 && c4 <= c3) {
-  console.log("The least number =", c4);
+  console.log("9. The least number =", c4);
 }
 /* 10-р дасгал - Хоёр багийн дундаж оноог олно уу. ( A team - 96, 108, 89; B team - 88, 91, 110 )
 Багийн дундаж нөгөө багийхаас их бол тэр баг түрүүлсэн гэж хэвлэнэ үү. Багуудын оноо тэнцсэн тохиолдолд багууд тэнцсэн гэж хэвлэнэ үү. Энэ дүрэм нь зөвхөн багийн дундаж 100 аас багагүй тохиолдолд энэхүү дүрэм хэрэгжэхийг анхаарна уу. Хэрвээ 2 баг 2 уулаа 100 аас бага тохиолдолд ялагч байхгүй. Тус бүрийн нөхцөлийг оноог өөрчилж туршиж үзээрэй. */
@@ -252,17 +252,17 @@ const A_Team = 96 + 108 + 89;
 const B_Team = 88 + 91 + 110;
 if (A_Team / 3 > B_Team / 3) {
   console.log(
-    "Winner is A team with an average of",
+    " Winner is A team with an average of",
     A_Team / 3,
-    "(A team average =",
+    "(. A team average =",
     A_Team / 3,
-    "B team average =",
+    " B team average =",
     B_Team / 3,
     ")"
   );
 } else if (B_Team / 3 > A_Team) {
   console.log(
-    "Winner is b team with an average of",
+    " Winner is b team with an average of",
     A_Team / 3,
     "(A team average =",
     A_Team / 3,
